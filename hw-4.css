@@ -8,47 +8,41 @@ body{
 }
 
 .section{
-padding: 100px 0;
-}
-.container{
-  margin: 0 auto;
-
-  ;
+  padding: 100px;
 }
 
-.block-1{
-  margin: 100px 100px;
-  max-width: 500px;
-  max-height: 296px;
-  border: 1px solid blue;
-  background: rgb(184,90,174);
-  background: linear-gradient(90deg, rgba(184,90,174,1) 0%, rgba(0,148,255,1) 100%);
-}
-
-
-.drone{
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  margin: -280px 210px;
-
-}
-.text{
+.block{
+  display: inline-block;
   position: relative;
-  width: 241px;
-  height: 27px;
-  color:#DCDCDC;
-  font-size: 16px;
+  border: 1px solid blue;
+  width: 555px;
+  height: 296px;
   font-family: 'Hind Siliguri', sans-serif;
-  padding: 20px 20px;
+  padding: 40px 30px;
+  background: rgb(184,90,174);
+background: linear-gradient(90deg, rgba(184,90,174,1) 0%, rgba(0,148,255,1) 100%)
 }
-
-.big-text{
-  font-family: 'Hind Siliguri', sans-serif;
-  font-size: 31px;
-  color: #ffff;
-  width: 249px;
-  height: 81px;
-  padding: 0 20px;
-
+.discount{
+  font-size: 14px;
+  color:#D5D8DC;
+  padding-bottom: 5px;
+}
+.title{
+  font-size: 24px;
+  width: 250px;
+  padding-bottom: 15px;
+  color: aliceblue;
+}
+.show-now{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.compact-drone{
+  display: inline-block;
+  position: absolute;
+  width: 280px;
+  height: 250px;
+  margin-left: 260px;
+  margin-top: -290px;
 }
